@@ -1,6 +1,6 @@
 # Portfolio-Site
 
-Portfolio page showcasing projects and providing contact information.
+Portfolio page showcasing projects and providing contact information. Made using HTML5, CSS, and Bootstrap.
 
 Live link:
 https://jovial-macaron-4fea98.netlify.app/
