@@ -1,0 +1,367 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Work Sans', sans-serif;
+}
+h1 {
+    font-weight: 200;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: white;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 1rem;
+    color: black;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#title {
+    background-color: #57e065;
+    padding: 1% 15%;
+}
+
+/*Navbar*/
+.container-fluid {
+    padding: 0 0 100px;
+}
+
+.navbar {
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    padding: 0 0 0 36px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+.logo {
+    font-family: 'Poiret One', cursive;
+}
+
+/*Top Section*/
+@media (max-width: 991px){
+    .page-top {
+        text-align: center;
+    }
+}
+
+.big-text {
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.2;
+    color: white;
+}
+
+/*Download Buttons*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*Stack */
+.stack {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 5%;
+    padding: 2%;
+    border: 1px black solid;
+}
+
+.stack-title {
+    color: black;
+        font-weight: 200;
+        font-size: 1.5rem;
+        line-height: 1.5;
+}
+.html-logo {
+    color: rgb(255, 75, 15);
+}
+.css-logo {
+    color: rgb(63, 79, 254);
+}
+.js-logo {
+    color: rgb(254, 241, 63);
+}
+.java-logo {
+    color: rgb(94, 136, 199);
+}
+.unity-logo {
+    color: black;
+}
+.boots-logo {
+    color: rgb(162, 0, 255);
+}
+
+@media (max-width: 800px) {
+    .big-text {
+        font-size: 2rem;
+    }
+    .download-button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .tech-logo{
+        font-size: 1.5rem;
+    }
+    .stack {
+        padding: 1%;
+        line-height: 1;
+    }
+    .stack-title {
+        font-size: 1.2rem;
+    }
+    .download-button {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .nav-container-top {
+        padding-bottom: 40px;
+    }
+    .stack {
+        margin-top: 12%;
+    }
+}
+
+@media (max-width: 325px) {
+    .big-text {
+        font-size: 1.5rem;
+    }
+    .download-button {
+        font-size: .6rem;
+    }
+    .stack-title {
+        font-size: .9rem;
+    }
+}
+
+#title {
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    #title {
+        text-align: left;
+    }
+}
+
+/*Projects Section */
+#projects {
+    padding: 100px 12% 12% 12%;
+    text-align: center;
+    background-image: linear-gradient(rgb(24, 143, 255), #57e065);
+}
+
+@media (max-width: 330px) {
+    #projects {
+        padding: 100px 5% 5% 5%;
+    }
+}
+
+.projects-column {
+    padding: 3% 2%;
+}
+
+.ecc-screenshot{
+    width: 100%;
+}
+
+.card-header{
+    background-color: black;
+    color: white;
+}
+
+
+/* About */
+#about {
+    background-color: #a7a7a7;
+    padding: 8% 15% 0;
+    text-align: center;
+}
+
+.about-text {
+    color: #fff;
+}
+
+.about-p {
+    color: white;
+    font-weight: 200;
+}
+
+
+/* Contact */
+.contact-section {
+    background-color: #57e065;
+    padding: 3%;
+}
+.contact-form {
+    margin: 0 20%;
+    padding: 2%;
+    background-color: white;
+    border: 1px black solid;
+}
+.contact-title {
+    font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+    .contact-form{
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-form{
+        margin: 0;
+    }
+}
+
+/*Footer*/
+#footer {
+    background-color: #fff;
+    text-align: center;
+}
+
+.footer-brands {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Contact Form Formspree */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
